@@ -1,5 +1,5 @@
 echo "==========================================="
-echo "2nd ORDER SQL INJECTION"
+echo "EXPECTED RESPONSE - NON EXISTANT USER"
 echo "curl \"http://127.0.0.1:5001/users?name=foobar\""
 echo
 curl "http://127.0.0.1:5001/users?name=foobar"
